@@ -147,6 +147,7 @@ h1 {
     position: relative;
     border: 10px solid darkcyan;
     margin: 10px;
+    filter: opacity(100%);
 }
 .about p{
     display: center;
@@ -178,6 +179,7 @@ h1 {
 }
 .about-row:hover {
     color: cyan;
+    filter: opacity(30%);
 }
 .bottomleft {
     position: absolute;
