@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+h1 {
+    border-radius: 20px;
+}
+.header {
+    display: flex;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:darkgray;
+    color:cyan;
+    
+}
+.header h1 {
+    display: inline-block;
+    font-size: 55px;
+    background-color: darkcyan;
+    color: darkgrey;
+    padding: 0px 20px 0px 20px;
+}
+.header nav {
+    padding-left: 50%;
+    padding-top: 20px;
+    margin-right: 15px;
+    align-content: flex-end;
+    justify-content: flex-end;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    background-color: darkgray;
+}
+.header nav ul {
+    list-style-type: none;
+}
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    background-color: darkgray;
+    }
+a {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-direction: row;
+    color: darkcyan
+}
+.shiplap {
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://i.etsystatic.com/14745576/r/il/cd7d7a/2849547589/il_1588xN.2849547589_br4v.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.subtitle {
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    height: 40px;
+    margin-right: 30px;
+    margin-top: 275px;
+    z-index: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+
+}
+
+.about-me{
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    padding-right: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightgray;
+    color: darkcyan;
+    border-right: 2px solid darkcyan;
+}
+.work {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightgray;
+    color: darkcyan;
+    border-right: 2px solid darkcyan;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+.footer nav {
+    padding-top: 20px;
+    margin-right: 15px;
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    background-color: lightgray;
+}
+.footer nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    background-color: darkgray;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+.about {
+   display: flex;
+   flex-direction: row;
+}
+.about-image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.about-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 10px solid darkcyan;
+    margin: 10px;
+}
+.about p{
+    display: center;
+}
+.container-about-me {
+    display: flex;
+}
+.container-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+.first-images {
+    display: flex;
+    flex-direction: row;
+}
+.contact{
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightgray;
+    color: darkcyan;
+    border-right: 2px solid darkcyan;
+}
