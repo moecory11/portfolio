@@ -72,14 +72,16 @@ a {
     margin-top: 275px;
     z-index: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 2px solid black;
+    border: 2px solid lightgray;
+    font-size: large;
+    color: darkcyan;
 
 }
 
 .about-me{
     display: flex;
-    align-content: flex-end;
-    justify-content: flex-end;
+    align-content: flex-start;
+    justify-content: flex-start;
     padding-right: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -90,7 +92,7 @@ a {
 .work {
     display: flex;
     align-content: flex-start;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -120,8 +122,8 @@ a {
 .info {
     display: flex;
     flex-direction: row;
-    align-content: flex-start;
-    justify-content: flex-start;
+    align-content: flex-end;
+    justify-content: flex-end;
 }
 .about {
    display: flex;
@@ -136,20 +138,20 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    position: relative;
     border: 10px solid darkcyan;
     margin: 10px;
 }
 .about p{
     display: center;
 }
-.container-about-me {
-    display: flex;
-}
 .container-p {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: flex-end;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 500px;
+    margin-right: 300px;
 }
 .first-images {
     display: flex;
@@ -164,3 +166,16 @@ a {
     color: darkcyan;
     border-right: 2px solid darkcyan;
 }
+.about-row:hover {
+    color: cyan;
+}
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkcyan;
+    border: 3px solid darkcyan;
+
+  }
