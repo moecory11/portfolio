@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  padding: auto;
+  margin: 0;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  background-image: url=("color-background.png");
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+.title {
+  width: 20px;
+  border-radius: 3px;
+  font-size: 40px;
+  background-color: #04dabb;
+  color: #fce96a;
+  border: 2px solid #f230b6;
+  margin-left: 10px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.header {
+  display: flex;
+  padding: 10px;
+  background-color: #e7e7e7;
+  color: cyan;
+}
+.header nav {
+  align-content: space-around;
+  justify-content: center;
+  font-size: large;
+}
+.header nav ul li {
+  float: right;
+  list-style-type: none;
+}
+.header nav ul li a {
+  padding: 5px;
+  background-color: #fce96a;
+  color: #f230b6;
+  border: 2px solid #834dec;
+  border-radius: 3px;
+  margin: 10px;
+  font-weight: bold;
+}
+.header nav ul li a:hover{
+  cursor: pointer;
+  background-color: #04dabb;
+}
+.bckgrd-image {
+  height: 150px;
+  width: 100%;
+  background-image: url("https://wallpapercave.com/wp/wp2408601.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.me-img {
+    border: 2px solid #f230b6;
+    border-radius: 3px;
+    margin: 9px;
+    padding: 5px;
+    float: left;
+}
+.intro{
+    border: 2px solid #04dabb;
+    border-radius: 3px; 
+    margin: 5px;
+}
+.about-border{
+    border: 2px solid #fce96a;
+    border-radius: 3px;
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 3px;
+}
+.work-title {
+    border: 2px solid #fe845c;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 30px;
+}
+.work-box {
+    border: 2px solid #f230b6;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: -1px;
+  font-size: 22px;
+  background-color: #04dabb;
+  border: 2px solid #fce96a;
+  border-radius: 3px;
+  padding: 8px;
+  margin: 5px;
+}
+.footer nav {
+  font-size: large;
+  background-color: lightgray;
+}
+.contact {
+  border: 2px solid #04dabb;
+  border-radius: 3px;
+}
+.contact-container {
+  color: #04dabb;
+  border: 2px solid #fe845c;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+}
+.img-border {
+    color: #04dabb;
+    border: 2px solid #fe845c;
+    border-radius: 3px;
+}
+.link-border {
+  color: #04dabb;
+  border: 2px solid #04dabb;
+  border-radius: 3px;
+}
+.link-border-2 {
+  color: #04dabb;
+  border: 2px solid #fce96a;
+  border-radius: 3px;
+}
