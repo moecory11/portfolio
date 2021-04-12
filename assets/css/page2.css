@@ -1,0 +1,62 @@
+* {
+    padding: auto;
+    margin: 0;
+    font-family: 'Carrois Gothic SC', sans-serif;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://raw.githubusercontent.com/moecory11/portfolio/main/assets/images/color-background.png");
+  }
+.img-size {
+    height: 100%;
+    width: 100%;
+}
+.home-link {
+    border: 2px solid #04dabb;
+    border-radius: 4px;
+    background-color: white;
+    margin: 10px;
+}
+.resume-link {
+    border: 2px solid #f230b6;
+    border-radius: 4px;
+    background-color: white;
+    margin: 10px;
+}
+.github-link { 
+    border: 2px solid #fce96a;
+    border-radius: 4px;
+    background-color: white;
+    margin: 10px;
+}
+.linkedin-link {
+    border: 2px solid #fe845c;
+    border-radius: 4px;
+    background-color: white;
+    margin: 10px;
+}
+.header-nav {
+    padding: 20px 0px;
+}
+.subtitle {
+    border: 2px solid #04dabb;
+    border-radius: 4px;
+    background-color: white;
+    height: 35px;
+    font-size: 14px;
+    color: #f230b6;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.bckgrd-image {
+    border-top: 2px solid #fce96a;
+    border-bottom: 2px solid #fce96a;
+    padding: 0%;
+    margin: 0%;
+    height: 150px;
+    width: 100%;
+    background-image: url("https://wallpapercave.com/wp/wp2408601.jpg");
+    background-size: cover;
+    background-position: center;
+}

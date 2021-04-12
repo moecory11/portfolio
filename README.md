@@ -7,8 +7,7 @@ Link to my GitHub Portfolio repository:
 https://github.com/moecory11/portfolio
 
 ## Usage
-![Website with navigation bar](https://github.com/moecory11/portfolio/blob/main/images/Screenshot%20(6).png?raw=true)
-The links in the navigation bar will guide you to the corisponding section below.
+![alt text](assets/images/screenshot2.png)
 
 ## Credits
 For this project my main references were W 3 Schools tutorials as well as: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide

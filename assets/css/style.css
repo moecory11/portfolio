@@ -1,9 +1,7 @@
 * {
-  box-sizing: border-box;
   padding: auto;
   margin: 0;
   font-family: 'Carrois Gothic SC', sans-serif;
- 
 }
 body {
   margin: 0;
@@ -68,6 +66,7 @@ body {
   color: #f230b6;
   margin-top: 10px;
   padding-top: 5px;
+  font-weight: bold;
 }
 .me-img {
     border: 2px solid #f230b6;
@@ -142,5 +141,10 @@ body {
 .link-border-2 {
   color: #04dabb;
   border: 2px solid #fce96a;
+  border-radius: 4px;
+}
+.mod-style {
+  color: #04dabb#f230b6;
+  border: 2px solid ;
   border-radius: 4px;
 }
