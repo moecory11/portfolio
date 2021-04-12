@@ -1,14 +1,11 @@
 # Portfolio
 ## Description
 This project provides a place to display current and future profesional accomplishments. My motivation for this project was to create a portfolio that can evolve over time. With as much experience and knowledge I gain, the portfolio can follow suit. Throughout working on this project I learned the value of Flex Boxes and the abilities they have to truly shape the layout of a webpage.
-
 ## Installation
 Link to my GitHub Portfolio repository:
 https://github.com/moecory11/portfolio
-
 ## Usage
 ![alt text](assets/images/screenshot2.png)
-
 ## Credits
 For this project my main references were W 3 Schools tutorials as well as: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 for refrencing the Readme.
